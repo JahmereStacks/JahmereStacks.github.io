@@ -24,3 +24,26 @@ nav a:hover{
 nav li{
     float: left
 }
+.text-center {
+    text-align: center;
+    color: white;
+}
+.bgh1{
+    background-color: olive;
+    color: white;
+    border-radius: 80%;
+    margin-top: 5px;
+    margin: 6px;
+}
+.textcolor{
+    background-color: olive;
+    color: white;
+    padding: 6px;
+}
+
+#me{
+    height: 350px;
+    display: block;
+    margin: 30px auto;
+    border: 9px solid olive;
+}
