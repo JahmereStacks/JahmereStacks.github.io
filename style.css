@@ -28,6 +28,9 @@ nav li{
     text-align: center;
     color: white;
 }
+.textC{
+    text-align: center;
+}
 .bgh1{
     background-color: olive;
     color: white;
@@ -46,4 +49,7 @@ nav li{
     display: block;
     margin: 30px auto;
     border: 9px solid olive;
+}
+#bg{
+   background-color: blanchedalmond;
 }
