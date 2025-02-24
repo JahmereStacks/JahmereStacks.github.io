@@ -26,7 +26,7 @@ nav li{
 }
 .text-center {
     text-align: center;
-    color: white;
+
 }
 .textC{
     text-align: center;
@@ -52,4 +52,21 @@ nav li{
 }
 #bg{
    background-color: blanchedalmond;
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    background-color: olive;
+    color: white;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin: 6px;  
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 70px;
 }
