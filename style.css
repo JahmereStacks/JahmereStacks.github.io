@@ -1,5 +1,6 @@
 body{
     margin: 20px;
+    background-color: tan;
 }
 h1{
     text-align: center;
@@ -69,4 +70,20 @@ nav{
     bottom: 0;
     right: 0;
     height: 70px;
+}
+.project {
+    display: flex;
+    padding-top: 50px;
+    
+}
+.project img {
+    border-radius: 24px;
+    margin: 14px;
+}
+.project:nth-child(even){
+flex-direction: row-reverse;
+}
+.fontt {
+    font-style: italic;
+ font:  sans-serif;
 }
