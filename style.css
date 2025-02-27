@@ -1,6 +1,7 @@
 body{
     margin: 20px;
     background-color: tan;
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -11,6 +12,8 @@ nav ul{
     padding: 2px;
     margin: 8px;
     overflow: hidden;  
+    flex-grow: 1;
+    text-align: center;
 }
 nav a{
    color: white;
@@ -43,6 +46,8 @@ nav li{
     background-color: olive;
     color: white;
     padding: 6px;
+    width: 700px;
+    text-align: center;
 }
 
 #me{
@@ -86,4 +91,19 @@ flex-direction: row-reverse;
 .fontt {
     font-style: italic;
  font:  sans-serif;
+}
+nav{
+   margin: auto;
+   text-align: center;
+}
+
+.button{
+    background-color: olive;
+
+}
+.cbutton{
+    background-color: paleturquoise;
+}
+.formcolor{
+    font-style: oblique;
 }
