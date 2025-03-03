@@ -48,6 +48,7 @@ nav li{
     padding: 6px;
     width: 700px;
     text-align: center;
+    margin: auto;
 }
 
 #me{
@@ -106,4 +107,16 @@ nav{
 }
 .formcolor{
     font-style: oblique;
+}
+
+.iconbutton{
+    color: cyan;
+    background-color: olive;
+    margin-top: 3px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.iconcol{
+    color: indianred;
 }

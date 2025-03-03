@@ -18,20 +18,79 @@
     </ul>
    <img src="Untitled (1).png" height="80">
   </nav>
+  <i data-lucide="circle-user-round" class="iconcol"></i>
   <h1>Contact Me</h1>
-  <p>Hello there ! This is how if needed you will be able to contact me further outside of this website🤙🏼</p>  
+  <p>Hello there ! This is how if needed you will be able to contact me further outside of this website🤙🏼</p> 
+  <br>
+  <h2>Your Contact:  </h2>
+  <form
+    action="https://form-to-email.steam-center.workers.dev/"
+    method="post"
+  >
+  <input name="send-to" value="jquiles@brooklynsteamcenter.org" hidden>
+    <label class="formcolor">First Name</label>
+    <br>
+    <input type="text" required name="firstname" class="button">
+    <br>
+    <label class="formcolor">Last Name</label>
+    <br>
+    <input type="text" required name="lastname" class="cbutton">
+    <br>
+    <label for="contact" class="formcolor">Way to contact you:</label>
+    <br>
+  <select id="Contant method" name="contact" class="button">
+    <option value="Mobile phone">Mobile phone</option>
+    <option value="Gmail">Gmail</option>
+    <option value="social media">social media- state which platform in comments</option>
+  </select>
+  <br>
+  <label class="formcolor">Comments...</label>
+  <br>
+  <i data-lucide="message-circle" class="iconcol"></i>
+  <br>
+  <textarea name="comments" required class="cbutton"></textarea>
+  <br>
+  <label class="formcolor">Phone number#</label>
+  <br>
+  <input type="tel" required name="numberphone" class="button">
+<br>
+
+<!-- <input type="submit"> -->
+<button type="submit" class="iconbutton">
+  <i data-lucide="check" class="iconbutton"></i>
+</button>
+
+<!-- <input type="reset"> -->
+<button type="reset" class="iconbutton">
+  <i data-lucide="x" class="iconbutton"></i>
+</button>
+  </form>
+
+  <br>
+  <br>
+  <br>
+
+  <a href="https://github.com/JahmereStacks">
+    <i data-lucide="github" class="iconcol"></i>
+  </a>
+  <h4> Click Cat To View My GitHub </h4>
+
+  <a href="mailto:jquiles@brooklynsteamcenter.org">
+    <i data-lucide="mail" class="iconcol"></i>
+  </a>
+<h4> Press Symbol ^ Too Quick Email to Me</h4>
+<br>
   <p>Down below will Contain my Student emails and personal email😁</p>
   <div class="textcolor">
-  <table>
+  <table class="text-center">
     <tr>
       <th>@jahjahq03@gmail.com</th>
       <th>@jquiles@brooklynsteamcenter.org</th>
       <th>@jahmereq@nycstudents.net</th>
     </tr>
     </table>
-    <p>
-      <video width="550" height="300" autoplay>
-        <source src="video.mp4" type="video/mp4">
+    <p class="text-center">
+      <video width="550" height="300" muted autoplay src="video.mp4">
       </video>
       
     </p>
@@ -39,5 +98,14 @@
       <img src="Untitled (1).png" class="logo">
     </p>
   </div>
+ 
+
+  
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
 </body>
 </html>
