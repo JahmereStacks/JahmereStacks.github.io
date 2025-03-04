@@ -120,3 +120,12 @@ nav{
 .iconcol{
     color: indianred;
 }
+
+.nsu{
+    height: 300px;
+    width: 250px;
+}
+
+.sfont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
