@@ -55,8 +55,8 @@ nav li{
 #me{
     height: 350px;
     display: block;
-    margin: 30px auto;
-    border: 9px solid olive;
+    margin: 40px auto;
+    border: 10px solid olive;
 }
 #bg{
    background-color: blanchedalmond;
@@ -220,3 +220,6 @@ nav{
   .emailss {
     text-align: center;
   }
+  .games{
+    border: 5px solid beige;
+}
