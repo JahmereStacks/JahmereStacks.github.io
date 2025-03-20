@@ -215,11 +215,23 @@ nav{
         flex-direction: column;
         width: 200px;
     }
+    .games{
+        border: 5px solid beige;
+        flex-direction: column;
+           width: 70%
   }
-
+  }
   .emailss {
     text-align: center;
   }
   .games{
     border: 5px solid beige;
+    flex-direction: column;
+           width: 70%
+}
+.gymfont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    flex-direction: column;
+    width: 70%
 }
