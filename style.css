@@ -241,3 +241,9 @@ nav{
 .icongg{
     color: black;
 }
+.webs:hover{
+    background-color: olive;
+}
+.webs:visited {
+    background-color: red;
+}
